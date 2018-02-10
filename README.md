@@ -4,11 +4,11 @@ This project is a part of an attempt to learn building server-side rendered appl
 
 I wanted to learn this to build small-scale applications for personal use, since my daily routine mainly contains large-scale applications.
 
+This repository contains the server.
+
 ## Run
 
 1. Install dependencies: `npm i`
-2. Run the application locally: `npm run dev`
-3. Build the application for deployment: `npm run build`
 
 ## Architecture
 The architecture contains two separate applications working together. 
