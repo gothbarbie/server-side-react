@@ -1,4 +1,5 @@
 # Server-Side React
+Version 1.0
 
 This project is a part of an attempt to learn building server-side rendered applications. 
 
