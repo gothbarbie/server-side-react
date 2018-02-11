@@ -5,6 +5,7 @@ const app = express()
 
 app.use(express.static('public'))
 
+// Defer all routing to react-router
 app.get('*', (req, res) => {
   res.send(renderer(req))
 })
