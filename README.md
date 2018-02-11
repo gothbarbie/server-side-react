@@ -21,5 +21,8 @@ Handles requests and serves data
 ### Renderer Server
 Produces HTML from data
 
+### Client
+...
+
 ## Author
-Hanna Söderström
+Hanna Söderström (with a lot of content based on the course "Server-side rendering with React" by Stephen Greider, from udemy.com)
