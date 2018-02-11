@@ -91,7 +91,7 @@ var app = (0, _express2.default)();
 app.use(_express2.default.static('public'));
 
 app.get('/', function (req, res) {
-  res.send((0, _renderer2.default)(html));
+  res.send((0, _renderer2.default)());
 });
 
 app.listen(3000, function () {
