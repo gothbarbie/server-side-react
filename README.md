@@ -9,6 +9,8 @@ This repository contains the server.
 ## Run
 
 1. Install dependencies: `npm i`
+2. Build: `npm run dev:build:server`
+3. Run: `node build/bundle.js`
 
 ## Architecture
 The architecture contains two separate applications working together. 
