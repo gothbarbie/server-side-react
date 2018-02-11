@@ -15,14 +15,14 @@ Note! Server-side rendering (with React) is slow and not intended for large-scal
 ## Architecture
 The architecture contains two separate applications working together. One for server-side and one for the client. Both are using JSX and therefore needs babel transpile before being readable by node. Hence both builds rely on Webpack.
 
-### API
-Handles requests and serves data
+### Data Source _(not this repo)_
+- Serves data per request from Renderer Server.
 
-### Renderer Server
-Produces HTML from data
+### Renderer Server _(this repo)_
+- Produces HTML from data fetched from the Data Source.
 
-### Client
-...
+### Client _(this repo)_
+- ...not sure yet
 
 ## Author
 Hanna Söderström (with a lot of content based on the course "Server-side rendering with React" by Stephen Greider, from udemy.com)
